@@ -11,3 +11,11 @@ git rm -r --cached venv
 git commit -m "Remove venv and add to .gitignore"
 git push -u origin main
 
+#--------------------------------------------------------------------------
+pip install pytest
+pip install pytest-playwright
+playwright install
+playwright --version #Version 1.49.1
+#---------------------------------------------------------------------------
+
+
