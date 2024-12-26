@@ -1,2 +1,13 @@
 Install python
 Install pycharm
+
+#create virtual environment
+python -m venv venv
+
+In your project root directory (where venv is located), create a new file named .gitignore.
+Open the .gitignore file and add the following line - venv/
+#Remove venv from Git (if already tracked)
+git rm -r --cached venv
+git commit -m "Remove venv and add to .gitignore"
+git push -u origin main
+
