@@ -10,8 +10,17 @@ print(sumofInt({12, 3, 4, 15}))
 
 '''
 
+
+'''
 #Solution 02
 
 arr = [12, 3, 4, 15]
 
-print(sum(arr))
+print(sum(arr)) '''
+
+#method 03
+
+list1 = [12, 3, 4, 15,1,1];s=0
+for i,a in enumerate(list1):
+  s+=a
+print(s)
