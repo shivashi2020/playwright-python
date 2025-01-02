@@ -33,5 +33,3 @@ Modules : .py file
 Packages : group of Modules
 
 ------------------------------------------------------
-
-New Function Cretaion
