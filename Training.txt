@@ -34,3 +34,4 @@ Packages : group of Modules
 
 ------------------------------------------------------
 Basic Pytest
+pip install pytest
